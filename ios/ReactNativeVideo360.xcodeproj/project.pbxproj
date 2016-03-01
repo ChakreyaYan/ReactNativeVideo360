@@ -22,7 +22,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		932FC1461C816ADB007259B0 /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 932FC1451C816AC9007259B0 /* demo.mp4 */; };
+		93249D4E1C86209D00A0F067 /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93249D4B1C86207900A0F067 /* demo.mp4 */; };
 		93E337DF1C85314800770826 /* libRCTVideo360.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 932FC12F1C815DF7007259B0 /* libRCTVideo360.a */; };
 /* End PBXBuildFile section */
 
@@ -135,8 +135,8 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		93249D4B1C86207900A0F067 /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo.mp4; path = ../demo.mp4; sourceTree = "<group>"; };
 		932FC1291C815DF7007259B0 /* RCTVideo360.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVideo360.xcodeproj; path = ../Libraries/RCTVideo360/RCTVideo360.xcodeproj; sourceTree = "<group>"; };
-		932FC1451C816AC9007259B0 /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo.mp4; path = "../../../react-native-video/Examples/VideoPlayer/demo.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,7 +251,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				932FC1451C816AC9007259B0 /* demo.mp4 */,
+				93249D4B1C86207900A0F067 /* demo.mp4 */,
 			);
 			name = ReactNativeVideo360;
 			sourceTree = "<group>";
@@ -540,7 +540,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				932FC1461C816ADB007259B0 /* demo.mp4 in Resources */,
+				93249D4E1C86209D00A0F067 /* demo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

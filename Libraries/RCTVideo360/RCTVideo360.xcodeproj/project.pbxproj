@@ -51,7 +51,6 @@
 		932FC1301C815E4C007259B0 /* iosvr.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iosvr.xcodeproj; path = ../iosvr/iosvr.xcodeproj; sourceTree = "<group>"; };
 		932FC1401C8163E1007259B0 /* RCTVideo360Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTVideo360Manager.m; sourceTree = "<group>"; };
 		932FC1421C8163F0007259B0 /* RCTVideo360Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTVideo360Manager.h; sourceTree = "<group>"; };
-		93E337E71C8554B400770826 /* libhfgl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhfgl.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/ReactNativeVideo360-djkfevpbhbnyujaujnbwfoasnjjo/Build/Products/Debug-iphoneos/libhfgl.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +75,6 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				93E337E71C8554B400770826 /* libhfgl.a */,
 				932FC1301C815E4C007259B0 /* iosvr.xcodeproj */,
 				932FC1421C8163F0007259B0 /* RCTVideo360Manager.h */,
 				932FC1401C8163E1007259B0 /* RCTVideo360Manager.m */,
