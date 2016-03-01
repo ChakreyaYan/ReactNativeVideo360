@@ -1,0 +1,3 @@
+rootProject.name = 'ReactNativeVideo360'
+
+include ':app'
