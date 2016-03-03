@@ -1,5 +1,5 @@
 #import "RCTBridge.h"
-#import "../iosvr/PanoVideoVrSample/PanoPlayerViewController.h"
+#import "PanoPlayerViewController.h"
 #import "RCTVideo360Manager.h"
 
 @implementation RCTVideo360Manager

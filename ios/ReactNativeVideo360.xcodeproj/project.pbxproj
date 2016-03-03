@@ -23,6 +23,9 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		93249D4E1C86209D00A0F067 /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93249D4B1C86207900A0F067 /* demo.mp4 */; };
+		93A2B6D61C88B02400BD493B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A2B6D51C88B02400BD493B /* CoreMotion.framework */; };
+		93A2B6E51C88B10600BD493B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A2B6E41C88B10600BD493B /* GLKit.framework */; };
+		93A2B6E91C88B45200BD493B /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A2B6E81C88B45200BD493B /* libstdc++.6.tbd */; };
 		93E337DF1C85314800770826 /* libRCTVideo360.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 932FC12F1C815DF7007259B0 /* libRCTVideo360.a */; };
 /* End PBXBuildFile section */
 
@@ -135,8 +138,12 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		93249D4B1C86207900A0F067 /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo.mp4; path = ../demo.mp4; sourceTree = "<group>"; };
+		93249D4B1C86207900A0F067 /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = text; name = demo.mp4; path = ../demo.mp4; sourceTree = "<group>"; };
 		932FC1291C815DF7007259B0 /* RCTVideo360.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVideo360.xcodeproj; path = ../Libraries/RCTVideo360/RCTVideo360.xcodeproj; sourceTree = "<group>"; };
+		93A2B6D51C88B02400BD493B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		93A2B6E41C88B10600BD493B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		93A2B6E61C88B41E00BD493B /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		93A2B6E81C88B45200BD493B /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +158,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A2B6E91C88B45200BD493B /* libstdc++.6.tbd in Frameworks */,
+				93A2B6E51C88B10600BD493B /* GLKit.framework in Frameworks */,
+				93A2B6D61C88B02400BD493B /* CoreMotion.framework in Frameworks */,
 				93E337DF1C85314800770826 /* libRCTVideo360.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -301,6 +311,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				93A2B6E81C88B45200BD493B /* libstdc++.6.tbd */,
+				93A2B6E61C88B41E00BD493B /* libstdc++.tbd */,
+				93A2B6E41C88B10600BD493B /* GLKit.framework */,
+				93A2B6D51C88B02400BD493B /* CoreMotion.framework */,
 				13B07FAE1A68108700A75B9A /* ReactNativeVideo360 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactNativeVideo360Tests */,
@@ -647,7 +661,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -655,7 +671,10 @@
 				);
 				INFOPLIST_FILE = ReactNativeVideo360/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ReactNativeVideo360;
 			};
@@ -665,6 +684,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				ENABLE_BITCODE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -672,7 +693,10 @@
 				);
 				INFOPLIST_FILE = ReactNativeVideo360/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ReactNativeVideo360;
 			};
