@@ -122,6 +122,7 @@ static void *AVPlayerItemStatusContext = &AVPlayerItemStatusContext;
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
     if (context == AVPlayerItemStatusContext) {
+        /*
         AVPlayerStatus status = [change[NSKeyValueChangeNewKey] integerValue];
         switch (status) {
             case AVPlayerItemStatusUnknown:
@@ -133,6 +134,7 @@ static void *AVPlayerItemStatusContext = &AVPlayerItemStatusContext;
                 [self stopLoadingAnimationAndHandleError:[[_player currentItem] error]];
                 break;
         }
+         */
     }
     else {
         [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
