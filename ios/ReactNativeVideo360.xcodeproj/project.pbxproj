@@ -23,9 +23,12 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		93249D4E1C86209D00A0F067 /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93249D4B1C86207900A0F067 /* demo.mp4 */; };
-		93A2B6D61C88B02400BD493B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A2B6D51C88B02400BD493B /* CoreMotion.framework */; };
-		93A2B6E51C88B10600BD493B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A2B6E41C88B10600BD493B /* GLKit.framework */; };
-		93A2B6E91C88B45200BD493B /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A2B6E81C88B45200BD493B /* libstdc++.6.tbd */; };
+		933703991C8A593F0092E4A2 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 933703981C8A593F0092E4A2 /* Shader.vsh */; };
+		9337039B1C8A59440092E4A2 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 9337039A1C8A59440092E4A2 /* Shader.fsh */; };
+		933703AE1C8A5E970092E4A2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933703A81C8A5E550092E4A2 /* CoreMotion.framework */; };
+		933703B81C8A5F130092E4A2 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 933703B71C8A5F130092E4A2 /* libstdc++.6.tbd */; };
+		933703BC1C8A60530092E4A2 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933703BB1C8A60530092E4A2 /* GLKit.framework */; };
+		933703BE1C8A60570092E4A2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933703BD1C8A60570092E4A2 /* OpenGLES.framework */; };
 		93E337DF1C85314800770826 /* libRCTVideo360.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 932FC12F1C815DF7007259B0 /* libRCTVideo360.a */; };
 /* End PBXBuildFile section */
 
@@ -140,10 +143,14 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		93249D4B1C86207900A0F067 /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = text; name = demo.mp4; path = ../demo.mp4; sourceTree = "<group>"; };
 		932FC1291C815DF7007259B0 /* RCTVideo360.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVideo360.xcodeproj; path = ../Libraries/RCTVideo360/RCTVideo360.xcodeproj; sourceTree = "<group>"; };
-		93A2B6D51C88B02400BD493B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		93A2B6E41C88B10600BD493B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		93A2B6E61C88B41E00BD493B /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		93A2B6E81C88B45200BD493B /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		933703981C8A593F0092E4A2 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = ../Libraries/iosvr/Shader.vsh; sourceTree = "<group>"; };
+		9337039A1C8A59440092E4A2 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = ../Libraries/iosvr/Shader.fsh; sourceTree = "<group>"; };
+		933703A81C8A5E550092E4A2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		933703AA1C8A5E720092E4A2 /* libhfgl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhfgl.a; path = "../../../../../Library/Developer/Xcode/DerivedData/ReactNativeVideo360-djkfevpbhbnyujaujnbwfoasnjjo/Build/Products/Debug-iphoneos/libhfgl.a"; sourceTree = "<group>"; };
+		933703AC1C8A5E7D0092E4A2 /* libiosvr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiosvr.a; path = "../../../../../Library/Developer/Xcode/DerivedData/ReactNativeVideo360-djkfevpbhbnyujaujnbwfoasnjjo/Build/Products/Debug-iphoneos/libiosvr.a"; sourceTree = "<group>"; };
+		933703B71C8A5F130092E4A2 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		933703BB1C8A60530092E4A2 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		933703BD1C8A60570092E4A2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,9 +165,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93A2B6E91C88B45200BD493B /* libstdc++.6.tbd in Frameworks */,
-				93A2B6E51C88B10600BD493B /* GLKit.framework in Frameworks */,
-				93A2B6D61C88B02400BD493B /* CoreMotion.framework in Frameworks */,
+				933703BE1C8A60570092E4A2 /* OpenGLES.framework in Frameworks */,
+				933703BC1C8A60530092E4A2 /* GLKit.framework in Frameworks */,
+				933703B81C8A5F130092E4A2 /* libstdc++.6.tbd in Frameworks */,
+				933703AE1C8A5E970092E4A2 /* CoreMotion.framework in Frameworks */,
 				93E337DF1C85314800770826 /* libRCTVideo360.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -262,6 +270,8 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				93249D4B1C86207900A0F067 /* demo.mp4 */,
+				9337039A1C8A59440092E4A2 /* Shader.fsh */,
+				933703981C8A593F0092E4A2 /* Shader.vsh */,
 			);
 			name = ReactNativeVideo360;
 			sourceTree = "<group>";
@@ -311,10 +321,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				93A2B6E81C88B45200BD493B /* libstdc++.6.tbd */,
-				93A2B6E61C88B41E00BD493B /* libstdc++.tbd */,
-				93A2B6E41C88B10600BD493B /* GLKit.framework */,
-				93A2B6D51C88B02400BD493B /* CoreMotion.framework */,
+				933703BD1C8A60570092E4A2 /* OpenGLES.framework */,
+				933703BB1C8A60530092E4A2 /* GLKit.framework */,
+				933703B71C8A5F130092E4A2 /* libstdc++.6.tbd */,
+				933703AC1C8A5E7D0092E4A2 /* libiosvr.a */,
+				933703AA1C8A5E720092E4A2 /* libhfgl.a */,
+				933703A81C8A5E550092E4A2 /* CoreMotion.framework */,
 				13B07FAE1A68108700A75B9A /* ReactNativeVideo360 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactNativeVideo360Tests */,
@@ -555,6 +567,8 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				93249D4E1C86209D00A0F067 /* demo.mp4 in Resources */,
+				933703991C8A593F0092E4A2 /* Shader.vsh in Resources */,
+				9337039B1C8A59440092E4A2 /* Shader.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

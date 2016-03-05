@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9337039D1C8A5D100092E4A2 /* libhfgl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9337039C1C8A5D100092E4A2 /* libhfgl.a */; };
+		9337039F1C8A5D150092E4A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9337039E1C8A5D150092E4A2 /* UIKit.framework */; };
+		933703A11C8A5D1A0092E4A2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933703A01C8A5D1A0092E4A2 /* AudioToolbox.framework */; };
+		933703A21C8A5D1F0092E4A2 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A2B6E21C88B0BC00BD493B /* GLKit.framework */; };
+		933703A41C8A5D240092E4A2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933703A31C8A5D240092E4A2 /* OpenGLES.framework */; };
+		933703A51C8A5D350092E4A2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A2B6CA1C88AEC500BD493B /* CoreMotion.framework */; };
+		933703A71C8A5D3C0092E4A2 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933703A61C8A5D3C0092E4A2 /* SceneKit.framework */; };
+		933703BA1C8A604B0092E4A2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933703B91C8A604B0092E4A2 /* AVFoundation.framework */; };
 		93A2B6CF1C88AECE00BD493B /* libiosvr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 932FC1381C815E4C007259B0 /* libiosvr.a */; };
 		93A2B6D21C88AF3F00BD493B /* PanoPlayerRender.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93A2B6D01C88AF3F00BD493B /* PanoPlayerRender.mm */; };
 		93A2B6D31C88AF3F00BD493B /* PanoPlayerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93A2B6D11C88AF3F00BD493B /* PanoPlayerViewController.mm */; };
@@ -54,6 +62,14 @@
 		932FC1301C815E4C007259B0 /* iosvr.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iosvr.xcodeproj; path = ../iosvr/iosvr.xcodeproj; sourceTree = "<group>"; };
 		932FC1401C8163E1007259B0 /* RCTVideo360Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTVideo360Manager.m; sourceTree = "<group>"; };
 		932FC1421C8163F0007259B0 /* RCTVideo360Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTVideo360Manager.h; sourceTree = "<group>"; };
+		933703921C8A58850092E4A2 /* PanoPlayerRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanoPlayerRender.h; path = ../iosvr/PanoVideoVrSample/PanoPlayerRender.h; sourceTree = "<group>"; };
+		933703931C8A588A0092E4A2 /* PanoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanoPlayerViewController.h; path = ../iosvr/PanoVideoVrSample/PanoPlayerViewController.h; sourceTree = "<group>"; };
+		9337039C1C8A5D100092E4A2 /* libhfgl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhfgl.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/ReactNativeVideo360-djkfevpbhbnyujaujnbwfoasnjjo/Build/Products/Debug-iphoneos/libhfgl.a"; sourceTree = "<group>"; };
+		9337039E1C8A5D150092E4A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		933703A01C8A5D1A0092E4A2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		933703A31C8A5D240092E4A2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		933703A61C8A5D3C0092E4A2 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		933703B91C8A604B0092E4A2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		93A2B6CA1C88AEC500BD493B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		93A2B6D01C88AF3F00BD493B /* PanoPlayerRender.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PanoPlayerRender.mm; sourceTree = "<group>"; };
 		93A2B6D11C88AF3F00BD493B /* PanoPlayerViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PanoPlayerViewController.mm; sourceTree = "<group>"; };
@@ -65,6 +81,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933703BA1C8A604B0092E4A2 /* AVFoundation.framework in Frameworks */,
+				933703A71C8A5D3C0092E4A2 /* SceneKit.framework in Frameworks */,
+				933703A51C8A5D350092E4A2 /* CoreMotion.framework in Frameworks */,
+				933703A41C8A5D240092E4A2 /* OpenGLES.framework in Frameworks */,
+				933703A21C8A5D1F0092E4A2 /* GLKit.framework in Frameworks */,
+				933703A11C8A5D1A0092E4A2 /* AudioToolbox.framework in Frameworks */,
+				9337039F1C8A5D150092E4A2 /* UIKit.framework in Frameworks */,
+				9337039D1C8A5D100092E4A2 /* libhfgl.a in Frameworks */,
 				93A2B6CF1C88AECE00BD493B /* libiosvr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,13 +107,21 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				93A2B6E21C88B0BC00BD493B /* GLKit.framework */,
+				933703B91C8A604B0092E4A2 /* AVFoundation.framework */,
+				933703A61C8A5D3C0092E4A2 /* SceneKit.framework */,
+				933703A31C8A5D240092E4A2 /* OpenGLES.framework */,
+				933703A01C8A5D1A0092E4A2 /* AudioToolbox.framework */,
+				9337039E1C8A5D150092E4A2 /* UIKit.framework */,
+				9337039C1C8A5D100092E4A2 /* libhfgl.a */,
+				933703921C8A58850092E4A2 /* PanoPlayerRender.h */,
 				93A2B6D01C88AF3F00BD493B /* PanoPlayerRender.mm */,
+				933703931C8A588A0092E4A2 /* PanoPlayerViewController.h */,
 				93A2B6D11C88AF3F00BD493B /* PanoPlayerViewController.mm */,
-				93A2B6CA1C88AEC500BD493B /* CoreMotion.framework */,
-				932FC1301C815E4C007259B0 /* iosvr.xcodeproj */,
 				932FC1421C8163F0007259B0 /* RCTVideo360Manager.h */,
 				932FC1401C8163E1007259B0 /* RCTVideo360Manager.m */,
+				93A2B6E21C88B0BC00BD493B /* GLKit.framework */,
+				93A2B6CA1C88AEC500BD493B /* CoreMotion.framework */,
+				932FC1301C815E4C007259B0 /* iosvr.xcodeproj */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";

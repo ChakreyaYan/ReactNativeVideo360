@@ -67,7 +67,7 @@ static void *AVPlayerItemStatusContext = &AVPlayerItemStatusContext;
     
     [[_player currentItem] removeOutput:self.videoOutput];
     
-    NSURL *url = [[NSBundle mainBundle] URLForResource:@"balloons2" withExtension:@"mp4"];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"demo" withExtension:@"mp4"];
     
     AVPlayerItem *item = [AVPlayerItem playerItemWithURL:url];
     AVAsset *asset = [item asset];
@@ -122,19 +122,17 @@ static void *AVPlayerItemStatusContext = &AVPlayerItemStatusContext;
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
     if (context == AVPlayerItemStatusContext) {
-        /*
-        AVPlayerStatus status = [change[NSKeyValueChangeNewKey] integerValue];
-        switch (status) {
-            case AVPlayerItemStatusUnknown:
-                break;
-            case AVPlayerItemStatusReadyToPlay:
-                //self.playerView.presentationRect = [[_player currentItem] presentationSize];
-                break;
-            case AVPlayerItemStatusFailed:
-                [self stopLoadingAnimationAndHandleError:[[_player currentItem] error]];
-                break;
-        }
-         */
+//        AVPlayerStatus status = [change[NSKeyValueChangeNewKey] integerValue];
+//        switch (status) {
+//            case AVPlayerItemStatusUnknown:
+//                break;
+//            case AVPlayerItemStatusReadyToPlay:
+//                self.playerView.presentationRect = [[_player currentItem] presentationSize];
+//                break;
+//            case AVPlayerItemStatusFailed:
+//                [self stopLoadingAnimationAndHandleError:[[_player currentItem] error]];
+//                break;
+//        }
     }
     else {
         [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];

@@ -8,7 +8,7 @@ RCT_EXPORT_MODULE();
 
 - (UIView *)view
 {
-    return [PanoPlayerViewController new].view;
+    return [[PanoPlayerViewController alloc] init].view;
 }
 
 
